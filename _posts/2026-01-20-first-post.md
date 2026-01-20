@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ""
-image: /assets/images/photo.jpg
+image: /assets/images/IMG_1063.JPG
 ---
 
 Test
