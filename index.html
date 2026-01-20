@@ -6,10 +6,17 @@ layout: default
   {% for post in site.posts %}
     <article class="post-preview">
       <a href="{{ post.url }}">
+        <time class="date">
+          {{ post.date | date: "%-d %B %Y" }}
+        </time>
+
         {% if post.image %}
           <img src="{{ post.image }}" alt="">
         {% endif %}
-        <p class="caption">{{ post.excerpt | strip_html }}</p>
+
+        <p class="caption">
+          {{ post.excerpt | strip_html }}
+        </p>
       </a>
     </article>
   {% endfor %}
