@@ -3,9 +3,15 @@ layout: default
 ---
 
 <article>
+
+  <time class="date">
+    {{ page.date | date: "%-d %B %Y" }}
+  </time>
+
   {% if page.image %}
     <img src="{{ page.image }}" alt="">
   {% endif %}
 
   {{ content }}
+
 </article>
