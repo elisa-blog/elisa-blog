@@ -35,3 +35,10 @@ a:hover {
   font-size: 1.1rem;
   line-height: 1.6;
 }
+
+.date {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
